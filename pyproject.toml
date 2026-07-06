@@ -1,0 +1,9 @@
+[project]
+name = "tiptotip"
+version = "1.0.0"
+description = "Numerical verification of Optimal Tip-to-Tip Efficiency (Chugtai & Gilfoyle, 2014)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "matplotlib"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
